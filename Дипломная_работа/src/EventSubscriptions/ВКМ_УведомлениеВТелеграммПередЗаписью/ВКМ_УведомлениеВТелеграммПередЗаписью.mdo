@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e0b9e35-25a2-46a0-abd8-5e44dd684d6a">
+  <name>ВКМ_УведомлениеВТелеграммПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ уведомление в телеграмм перед записью</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ВКМ_ОбслуживаниеКлиента</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВКМ_Телеграмм.ВКМ_УведомлениеВТелеграммПередЗаписью</handler>
+</mdclass:EventSubscription>

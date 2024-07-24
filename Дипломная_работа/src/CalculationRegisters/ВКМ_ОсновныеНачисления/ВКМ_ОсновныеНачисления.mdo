@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a371a2a0-7bcc-4ef9-841c-4b0796ec6c2b">
+  <producedTypes>
+    <selectionType typeId="125790c0-39f6-4285-92ea-e31eb2a72b68" valueTypeId="d2b2e2d6-9e37-42f0-8c21-d1bc06639939"/>
+    <listType typeId="f127f3da-fc4e-4db4-a1fd-ec4b0a2e0153" valueTypeId="a9550392-9d35-4342-9ebf-289f2ec07592"/>
+    <managerType typeId="be18560a-40f6-4639-b8fc-116f7dd14851" valueTypeId="c5260d9b-e616-4095-a9f2-74cff6e78611"/>
+    <recordSetType typeId="f5fd8d91-b919-4a2e-9795-801b42ad7c8c" valueTypeId="db0f24b2-9d64-4f41-ad0f-6c29a83b7ae2"/>
+    <recordKeyType typeId="48331560-fe92-478c-8816-15db5ba3ae5c" valueTypeId="e5f55b69-e38c-478e-a413-9fec72bc5cf6"/>
+    <recordType typeId="3e8faadc-5490-40d7-a5bd-a89420d4f256" valueTypeId="7ab9e675-c3cb-476e-9372-f75c5d4c6a00"/>
+    <recalcsType typeId="8d9cd5c7-dc9a-4836-ba70-64383941998a" valueTypeId="70fb989b-e9f7-429a-845f-afbd7af6609c"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ГрафикРаботы</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикРаботы.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="90177934-6925-43d4-8907-cd0331f47e79">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="47617e62-1868-4f71-b5f5-a3dd5fd467bf">
+    <name>ОтработаноДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="7e6d877b-8f59-42db-abfd-508ab6cdcc62">
+    <name>ДнейПоПлану</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней по плану</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="df7c543c-586e-468a-8826-ee3d63a30137">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="4f86420e-e584-434a-a842-f9f2a78f9697">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

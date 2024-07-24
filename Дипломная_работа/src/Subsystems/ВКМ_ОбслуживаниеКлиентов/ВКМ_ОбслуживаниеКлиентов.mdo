@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db45edf3-3f2c-4b27-9f9a-d0abff75f7ab">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>CommonModule.ВКМ_Телеграмм</content>
+  <content>Catalog.ВКМ_УведомленияТелеграммБоту</content>
+  <content>EventSubscription.ВКМ_УведомлениеВТелеграммПередЗаписью</content>
+  <content>ScheduledJob.ВКМ_ОтправитьСообщенияВТелеграмм</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>InformationRegister.ВКМ_ГрафикРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>CommonModule.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.КонтрагентыПрисоединенныеФайлы</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ИзменениеДокументаОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ИспользованиеОбработкиМассовогоСозданияРеализаций</content>
+</mdclass:Subsystem>
