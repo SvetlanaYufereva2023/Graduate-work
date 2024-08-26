@@ -35,7 +35,6 @@
   <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</baseCalculationTypes>
   <predefined>
     <items id="71350698-e05e-4283-8195-ce486419961e">
       <name>НДФЛ</name>

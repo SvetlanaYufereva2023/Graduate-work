@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -38,8 +38,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.19</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="88f37154-ded7-4bfd-87d2-34f4461294ad">
     <name>Русский</name>
     <synonym>

@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="ad7ea55d-5443-4c4e-acc3-22552fb65937">
